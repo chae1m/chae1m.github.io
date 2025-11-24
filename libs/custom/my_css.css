@@ -270,3 +270,13 @@ h1 {
 b, strong {
   font-weight: 600 !important;
 }
+
+.timeline {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.timeline p,
+.timeline div,
+.timeline span {
+  font-family: 'Inter', sans-serif !important;
+}
