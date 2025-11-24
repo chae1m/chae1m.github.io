@@ -212,8 +212,8 @@ h4 {
 
 /* CV / Google Scholar 아이콘을 진짜 동그라미 버튼으로 */
 .social-round {
-  width: 42px !important;
-  height: 42px !important;
+  width: 35px !important;
+  height: 35px !important;
   border-radius: 50% !important;
   background-color: #555 !important;
   display: inline-flex !important;
@@ -227,3 +227,18 @@ h4 {
   color: white !important;
 }
 
+/* 전체 기본 폰트 두께를 더 진하게 */
+body {
+  font-weight: 400 !important;
+}
+
+/* 이름 (Chaewon Moon) 더 굵게 */
+h1, h2 {
+  font-weight: 500 !important;
+}
+
+/* 메뉴 글씨 (ABOUT, PUBLICATIONS 등) */
+.navbar a,
+.nav a {
+  font-weight: 500 !important;
+}
