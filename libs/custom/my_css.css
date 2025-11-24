@@ -193,27 +193,11 @@ h4 {
     border-bottom-color: #33C3F0; }
 }
 
-/* .u-max-full-width {
+/* 메인 프로필 사진을 완전한 원으로 만들기 */
+.profile-photo {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-} */
-
-.u-max-full-width {
-  width: 160px;          /* 가로 고정 */
-  height: 160px;         /* 세로도 가로랑 동일 */
-  border-radius: 50%;    /* 원으로 만들기 */
-  object-fit: cover;     /* 사진 비율 깨지지 않게 채우기 */
   display: block;
-  margin: 0 auto;        /* 가운데 정렬 */
-}
-
-/* 메인 포인트 색상 변경 (링크, 강조색 등) */
-a,
-a:visited,
-a:active {
-  color: #464494;
-}
-
-a:hover {
-  color: #464494;
 }
