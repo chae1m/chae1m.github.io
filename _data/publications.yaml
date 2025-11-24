@@ -12,6 +12,6 @@ papers:
     venue1: "ICML 2025 Workshop on High-dimensional Learning Dynamics (HiLD)"
     venue2: "<b>KAIA Outstanding Paper Award</b> at KAIA Summer Conference 2025 (CKAIA 2025)"
     paper_pdf: "https://arxiv.org/abs/2510.24643"
-    slides_pdf: "https://yujunkim02.github.io/publication/neurips2025-rm/neurips2025-rm-slide.pdf"
+    slides: "https://yujunkim02.github.io/publication/neurips2025-rm/neurips2025-rm-slide.pdf"
     selected: y
 
