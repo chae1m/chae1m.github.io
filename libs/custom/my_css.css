@@ -241,3 +241,29 @@ h4 {
 }
 
 
+/* CV + Scholar 아이콘 한 줄 정렬 */
+.profile-links {
+  display: inline-flex;
+  align-items: center;   /* 세로 가운데 정렬의 핵심 */
+  gap: 8px;
+}
+
+/* 공통 스타일 */
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* CV 텍스트 */
+.profile-link-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;   /* 위아래 여백 최소화 */
+}
+
+/* Scholar 아이콘 이미지 */
+.profile-link-icon img {
+  width: 22px;
+  height: 22px;
+  display: block;
+}

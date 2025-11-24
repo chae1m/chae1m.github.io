@@ -80,13 +80,18 @@
             <p>{{ site.data.main_info.office }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <div class="social-row">
-                <span class="cv-text" onclick="window.open('{{ site.data.main_info.cv }}')">CV</span>
+              <div class="profile-links">
+                <span class="profile-link profile-link-text"
+                      onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor:pointer">
+                  CV
+                </span>
               
-                <span class="scholar-icon" onclick="window.open('{{ site.data.main_info.google_scholar }}')">
-                  <img src="{{ '/libs/scholar.png' | prepend: site.baseurl }}">
+                <span class="profile-link profile-link-icon"
+                      onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor:pointer">
+                  <img src="{{ '/libs/scholar.png' | prepend: site.baseurl }}" alt="Google Scholar">
                 </span>
               </div>
+              
 
               <!-- <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
