@@ -281,3 +281,8 @@ h4 {
   height: 20px;
   display: block;
 }
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
