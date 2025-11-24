@@ -77,9 +77,14 @@
             <p>{{ site.data.main_info.office }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span class="social-round" onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
-                <i class="ai ai-cv"></i>
+              <span class="social-icon" onclick="window.open('{{ site.data.main_info.cv }}')">
+                <img src="{{ site.baseurl }}/libs/cv.png">
               </span>
+              
+              <span class="social-icon" onclick="window.open('{{ site.data.main_info.google_scholar }}')">
+                <img src="{{ site.baseurl }}/libs/scholar.png">
+              </span>
+              
 
               <!-- <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
@@ -88,10 +93,6 @@
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
               </span>     -->
-
-              <span class="social-round" onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar"></i>
-              </span>
 
               <!-- <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">
                 <i class="ai fa ai-semantic-scholar-square" aria-hidden="true"></i>
