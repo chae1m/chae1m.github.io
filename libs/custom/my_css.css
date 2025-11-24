@@ -192,3 +192,11 @@ h4 {
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+.u-max-full-width {
+  border-radius: 50%;
+  object-fit: cover;
+  /* 정사각형 강제하고 싶으면 (필요할 때만) */
+  width: 160px;
+  height: 160px;
+}
