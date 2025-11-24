@@ -230,21 +230,6 @@ h4 {
 }
 
 
-/* 전체 글자 조금 더 두껍게 */
-body {
-  font-weight: 450 !important;
-}
-
-/* 제목 더 굵게 (Chaewon Moon 같은 것들) */
-h1, h2, h3 {
-  font-weight: 600 !important;
-}
-
-/* 상단 메뉴 (ABOUT, PUBLICATIONS 등) */
-.navbar a,
-.nav a {
-  font-weight: 600 !important;
-}
 
 /* 상단 프로필 옆 CV / Scholar 아이콘 크기 고정 */
 .social-icon img {
@@ -256,37 +241,3 @@ h1, h2, h3 {
 }
 
 
-
-h1, h2, h3 {
-  font-weight: 700 !important;
-}
-
-.navbar a {
-  font-weight: 700 !important;
-}
-
-/* 메뉴 텍스트 */
-#nav a,
-.nav a {
-  font-weight: 600 !important;
-}
-/* ===== 자연스럽게 두꺼운 폰트들 ===== */
-
-/* 기본 본문 텍스트 */
-body {
-  font-weight: 400;
-}
-
-p, li, div {
-  font-weight: 400;
-}
-
-/* 제목은 더 굵게 */
-h1, h2, h3 {
-  font-weight: 600;
-}
-
-/* b / strong 태그 복구 */
-b, strong {
-  font-weight: 700 !important;
-}
