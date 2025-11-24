@@ -280,3 +280,7 @@ b, strong {
 .timeline span {
   font-family: "Ubuntu", sans-serif !important;
 }
+
+.paper-buttons .button {
+  font-family: 'Inter', sans-serif !important;
+}
