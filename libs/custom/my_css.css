@@ -201,3 +201,29 @@ h4 {
   object-fit: cover;
   display: block;
 }
+
+/* 상단 네비게이션 메뉴 색상 원래대로 (검정색) */
+.navbar a,
+.navbar a:visited,
+.navbar a:hover,
+.nav a {
+  color: #000000 !important;
+}
+
+/* CV, Google Scholar 아이콘을 동그라미 버튼으로 */
+.round-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #4b4b4b;  /* 배경색 (필요하면 변경 가능) */
+  color: white;
+  margin-right: 8px;
+}
+
+/* 아이콘 크기 */
+.round-icon i {
+  font-size: 20px;
+}
