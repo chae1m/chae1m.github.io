@@ -1,0 +1,238 @@
+---
+layout: default
+---
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+    <p>
+      I am a Master Student at KAIST, advised by <a href="https://chulheeyun.github.io">Chulhee Yun</a>.
+      Previously, I completed my B.S. in Industrial Engineering and Mathematical Sciences at Seoul National University.
+      My research interests are centered on ~.
+      My recent work specifically focuses on ~.
+    </p>
+    <!-- <p style="margin-bottom: 5px;"><b>Topics of interest</b> (publications with overlap):</p> -->
+    <!-- <ul>
+      <li>AI Agents: <a href="https://www.arxiv.org/abs/2506.15692">NeurIPS'25</a>, <a href="https://arxiv.org/abs/2509.21825">Preprint'25</a></li>
+      <li>Tabular Learning: <a href="https://arxiv.org/abs/2303.00918">ICLR'23</a>, <a href="https://openreview.net/forum?id=r77CeOBO0L8">COLM'24</a>, <a href="https://arxiv.org/abs/2406.08527">NeurIPS'24</a></li>
+      <li>AI for Science: <a href="https://openreview.net/forum?id=9lGwd4q8KJc">TMLR'24</a>, <a href="https://openreview.net/forum?id=NDBx1lo3jQ">ICML'24</a>, <a href="https://openreview.net/forum?id=BDISzo0dZi">EMNLP'25</a></li>
+    </ul> -->
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  <!-- <p> (*: Equal contribution) </p> -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <div class="row">
+            <!-- <div class="four columns">
+              <div class="figure">
+                <img src="{{ paper.image }}" width="100%">
+              </div>
+            </div> -->
+            <div class="twelve columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p>{{ paper.venue }}</p>
+              {% if paper.venue1 %}
+                <p>{{ paper.venue1 }}</p>
+              {% endif %}
+              {% if paper.venue2 %}
+                <p>{{ paper.venue2 }}</p>
+              {% endif %}
+              {% if paper.venue3 %}
+                <p>{{ paper.venue3 }}</p>
+              {% endif %}
+              {% if paper.venue4 %}
+                <p>{{ paper.venue4 }}</p>
+              {% endif %}
+              {% if paper.venue5 %}
+                <p>{{ paper.venue5 }}</p>
+              {% endif %}
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.project_page %}
+                  <a class="button" href="{{ paper.project_page }}" target="_blank">Project</a>
+                {% endif %}
+
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <div class="row">
+            <!-- <div class="four columns">
+              <div class="figure">
+                <img src="{{ paper.image }}" width="100%">
+              </div>
+            </div> -->
+            <div class="eight columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    </div>
+
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+        <div class="paper">
+          <p class="title"><b>Korea Advanced Institute of Science and Technology (KAIST)</b></p>
+          <p> Ph.D. in Artificial Intelligence<b style="float:right;">Sep. 2023 - Present</b></p>
+          <p> M.S. in Artificial Intelligence<b style="float:right;">Mar. 2022 - Aug. 2023</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Seoul National University (SNU)</b></p>
+          <p>B.S. in Industrial Engineering and Mathematical Sciences (minor)<b style="float:right;">Mar. 2016 - Feb. 2022</b></p>
+        </div>
+</div>
+
+<!-- ========== Experience ========== -->
+<div class="docs-section" id="experience">
+  <h4>Experience</h4>
+        <div class="paper">
+          <p class="title"><b>Google Cloud AI Research<b style="float:right;">Mar. 2025 - Present</b></b></p>
+          <p> Student Researcher, hosted by <a href="https://sites.google.com/corp/view/jinsungyoon">Jinsung Yoon</a> </p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>SK Hynix<b style="float:right;">Dec. 2020 - Feb. 2021</b></b></p>
+          <p> Intern, AI Solution </p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Military Service<b style="float:right;">Mar. 2018 - Feb. 2020</b></b></p>
+          <p> Republic of Korea Air Force </p>
+        </div>
+</div>
+
+
+<!-- ========== Honors and Awards ========== -->
+<div class="docs-section" id="honors">
+  <h4>Honors and Awards</h4>
+        <div class="paper">
+          <p> <b>Reviewer Award</b>, International Conference on Learning Representations (ICLR) <b style="float:right;">Mar. 2025</b></p>
+          <p> <b>Grand Prize</b>, KAIST-Samsung Electronics Industry-Academia Cooperation Paper Award <b style="float:right;">Aug. 2023</b></p>
+          <p> <b>Travel Award</b>, International Conference on Learning Representations (ICLR) <b style="float:right;">May. 2023</b></p>
+          <p> <b>Recipient</b>, Google Conference Scholarships (APAC) <b style="float:right;">May. 2023</b></p>
+          <p> <b>Bronze Prize</b>, Samsung Humantech Paper Awards <b style="float:right;">Feb. 2023</b></p>
+          <p> <b>Special Prize</b>, National Cryptograpy Contest <b style="float:right;">Oct. 2021</b></p>
+          <p> <b>Recipient</b>, Hanseong Scholarship for Gifted Students <b style="float:right;">2014 - 2016</b></p>
+        </div>
+</div>
+
+<!-- ========== Academic Services ========== -->
+<div class="docs-section" id="services">
+  <h4>Academic Services</h4>
+        <div class="paper">
+          <p> <b>Conference Reviewer</b> NeurIPS, ICLR, AISTATS, COLM, ICCV, ICML</p>
+          <p> <b>Workshop Reviewer</b> TRL@NeurIPS</p>
+        </div>
+</div>
+
+<!-- ========== Invited Talks ========== -->
+<div class="docs-section" id="invited">
+  <h4>Invited Talks</h4>
+          <div class="paper">
+          <p class="title"><b>Rethinking Tabular Learning in the Era of LLMs</b></p>
+          <p>HYPERCONNECT AI (Seoul, Korea)<b style="float:right;">Nov. 2025</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>AI Agents for Data Science</b></p>
+          <p>Korea Open AGI Symposium (Seoul, Korea)<b style="float:right;">Oct. 2025</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Semi-supervised Tabular Classification via In-context Learning of Large Language Models</b></p>
+          <p>Samsung Advanced Institue of Technology (Suwon, Korea)<b style="float:right;">Jun. 2023</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>STUNT: Few-shot Tabular Learning with Self-generated Tasks from Unlabeled Tables</b></p>
+          <p>AI Expo Korea (Seoul, Korea)<b style="float:right;">May. 2023</b></p>
+          <p>International Conference on Learning Representations (Kigali, Rwanda)<b style="float:right;">May. 2023</b></p>
+          <p>Samsung Electronics Co., Ltd. (Virtual)<b style="float:right;">Mar. 2023</b></p>
+          <p>MOGAM Institute for Biomedical Research (Virtual)<b style="float:right;">Mar. 2023</b></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Privacy-preserving Median Selection and Secure Aggregation in Federated Learning</b></p>
+          <p>Korean Mathematical Society Fall Meeting (Virtual)<b style="float:right;">Oct. 2021</b></p>
+          <p>Special Prize, National Cryptography Contest, 2021</p>
+        </div>
+</div>
+
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4> -->
+
+  <p>Full CV in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>
