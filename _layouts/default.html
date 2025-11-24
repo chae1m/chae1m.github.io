@@ -81,17 +81,16 @@
             <p>{{ site.data.main_info.office }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <div class="profile-links">
-                <span class="profile-link profile-link-text"
-                      onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor:pointer">
+              <div class="icon-row">
+                <span onclick="window.open('{{ site.data.main_info.cv }}')" class="icon-btn">
                   CV
                 </span>
               
-                <span class="profile-link profile-link-icon"
-                      onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor:pointer">
-                  <img src="{{ '/libs/scholar.png' | prepend: site.baseurl }}" alt="Google Scholar">
+                <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" class="icon-btn">
+                  <img src="{{ '/libs/scholar.png' | prepend: site.baseurl }}" class="scholar-icon">
                 </span>
               </div>
+              
               
               
 

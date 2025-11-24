@@ -127,6 +127,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   color: #222; }
 
+b, strong {
+    font-weight: 600;  /* 기존 700 → 조금 덜 굵게 */
+  }
+  
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

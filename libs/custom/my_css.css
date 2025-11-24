@@ -263,3 +263,21 @@ h4 {
   top: 1px;              /* ← 여기 숫자로 미세조정 */
 }
 
+.icon-row {
+  display: flex;
+  align-items: center;   /* 핵심 */
+  gap: 12px;             /* 아이콘 사이 간격 */
+}
+
+.icon-btn {
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.scholar-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
