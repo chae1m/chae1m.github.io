@@ -237,7 +237,8 @@ h4 {
   display: flex;
   align-items: center;   /* 핵심 */
   gap: 12px;             /* 아이콘 사이 간격 */
-  color: #696FAD
+  color: #696FAD;
+  margin-top: 8px;
 }
 
 .icon-btn {
@@ -252,6 +253,7 @@ h4 {
   width: 20px;
   height: 20px;
   display: block;
+  filter: invert(32%) sepia(92%) saturate(749%) hue-rotate(200deg) brightness(90%) contrast(95%);
 }
 
 
