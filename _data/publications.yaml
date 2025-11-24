@@ -1,79 +1,17 @@
 papers:
-  - title: "DS-STAR: Data Science Agent via Iterative Planning and Verification"
-    authors: "<b><u>Jaehyun Nam</u></b>, <a href='https://sites.google.com/corp/view/jinsungyoon'>Jinsung Yoon</a>, <a href='https://jfc43.github.io/'>Jiefeng Chen</a>, <a href='https://tomas.pfister.fi/'>Tomas Pfister</a>"
-    venue: "Preprint, 2025"
-    paper_pdf: "https://arxiv.org/abs/2509.21825"
-    project_page: "https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/"
+  - title: "Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization"
+    authors: "<b><u>Chaewon Moon</u></b>, <a href='https://dongkuksi.notion.site/Dongkuk-Si-826580ca76a04aab8c2722a22ca00741'>Dongkuk Si</a>, "
+    venue: "Manuscript, 2025"
+    paper_pdf: "https://openreview.net/forum?id=ErnnE2UNI2&noteId=vgJMum6dmo&referrer=%5BAuthor+Console%5D%28%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions%29"
     selected: y
 
-  - title: "MLE-STAR: Machine Learning Engineering Agent via Search and Targeted Refinement"
-    authors: "<b><u>Jaehyun Nam</u></b>, <a href='https://sites.google.com/corp/view/jinsungyoon'>Jinsung Yoon</a>, <a href='https://jfc43.github.io/'>Jiefeng Chen</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://www.sercanarik.com/'>Sercan Ö. Arık</a>, <a href='https://tomas.pfister.fi/'>Tomas Pfister</a>"
-    venue: "Conference on Neural Information Processing Systems (<b><u>NeurIPS</u></b>), 2025"
-    paper_pdf: "https://www.arxiv.org/abs/2506.15692"
-    project_page: "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/"
-    code: "https://github.com/google/adk-samples/tree/main/python/agents/machine-learning-engineering"
-    selected: y
-    
-  - title: "FontAdapter: Instant Font Adaptation in Visual Text Generation"
-    authors: "<a href='https://www.linkedin.com/in/myungkyukoo/'>Myungkyu Koo</a>, <a href='https://subin-kim-cv.github.io/'>Subin Kim</a>, <a href='https://sang-kyung.github.io/'>Sangkyung Kwak</a>, <b><u>Jaehyun Nam</u></b>, <a href='https://seojin-kim.github.io/'>Seojin Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Preprint, 2025"
-    paper_pdf: "https://arxiv.org/abs/2506.05843"
+
+  - title: "The Cost of Robustness: Tighter Bounds on Parameter Complexity for Robust Memorization in ReLU Nets"
+    authors: "<a href='https://yujunkim02.github.io'>Yujun Kim*</a>, <b><u>Chaewon Moon*</u></b>, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>"
+    venue: "NeurIPS 2025"
+    venue1: "ICML 2025 Workshop on High-dimensional Learning Dynamics (HiLD)"
+    venue2: "<b>KAIA Outstanding Paper Award</b> at KAIA Summer Conference 2025 (CKAIA 2025)"
+    paper_pdf: "https://arxiv.org/abs/2510.24643"
+    slides_pdf: "https://yujunkim02.github.io/publication/neurips2025-rm/neurips2025-rm-slide.pdf"
     selected: y
 
-  - title: "Training Text-to-Molecule Models with Context-Aware Tokenization"
-    authors: "<a href='https://seojin-kim.github.io/'>Seojin Kim*</a>, <a href='https://www.linkedin.com/in/hyeontae/'>Hyeontae Song*</a>, <b><u>Jaehyun Nam</u></b>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025, Findings"
-    venue1: "NeurIPS Workshop on AI for New Drug Modalities (NeurIPSW-AIDrugX), 2024"
-    paper_pdf: "https://www.arxiv.org/abs/2509.04476"
-    code: "https://github.com/Songhyeontae/CAMT5"
-    selected: y
-
-  - title: "Optimized Feature Generation for Tabular Data via LLMs with Decision Tree Reasoning"
-    authors: "<b><u>Jaehyun Nam</u>*</b>, <a href='https://kykim0.github.io/'>Kyuyoung Kim*</a>, <a href='https://seunghyukoh.notion.site/'>Seunghyuk Oh</a>, <a href='https://jihoontack.github.io/'>Jihoon Tack</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Conference on Neural Information Processing Systems (<b><u>NeurIPS</u></b>), 2024"
-    paper_pdf: "https://arxiv.org/abs/2406.08527"
-    code: "https://github.com/jaehyun513/OCTree"
-    selected: y
-
-  - title: "Tabular Transfer Learning via Prompting LLMs"
-    authors: "<b><u>Jaehyun Nam</u></b>, <a href='https://github.com/totolacky'>Woomin Song</a>, <a href='https://shpark.org/'>Seong Hyeon Park</a>, <a href='https://jihoontack.github.io/'>Jihoon Tack</a>, <a href='https://sites.google.com/view/sukmin-yun'>Sukmin Yun</a>, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://www.linkedin.com/in/oh-kyu-hwan-8a16b9282/'>Kyu Hwan Oh</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Conference on Language Modeling (<b><u>COLM</u></b>), 2024"
-    venue1: "ICML Workshop on Efficient Systems for Foundation Models (ICMLW-ES-FoMo), 2023"
-    paper_pdf: "https://openreview.net/forum?id=r77CeOBO0L8"
-    code: "https://github.com/jaehyun513/P2T"
-    selected: y
-
-  - title: "Data-Efficient Molecular Generation with Hierarchical Textual Inversion"
-    authors: "<a href='https://seojin-kim.github.io/'>Seojin Kim</a>, <b><u>Jaehyun Nam</u></b>, <a href='https://sihyun.me/'>Sihyun Yu</a>, <a href='https://github.com/0HOON'>Younghoon Shin</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "International Conference on Machine Learning (<b><u>ICML</u></b>), 2024"
-    venue1: "NeurIPS Workshop on New Frontiers of AI for Drug Discovery and Development (NeurIPSW-AI4D3), 2023"
-    paper_pdf: "https://openreview.net/forum?id=NDBx1lo3jQ"
-    code: "https://github.com/Seojin-Kim/HI-Mol"
-    selected: y
-
-  - title: "Holistic Molecular Representation Learning via Multi-view Fragmentation"
-    authors: "<b><u>Jaehyun Nam</u>*</b>, <a href='https://seojin-kim.github.io/'>Seojin Kim*</a>, <a href='https://junsu-kim97.github.io/'>Junsu Kim</a>, <a href='https://hankook.github.io/'>Hankook Lee</a>, <a href='https://sites.google.com/view/sungsooahn0215/home'>Sungsoo Ahn</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "Transactions on Machine Learning Research (<b><u>TMLR</u></b>), 2024"
-    venue1: "ICLR Workshop on Machine Learning for Materials (ICLRW-ML4Materials), 2023"
-    paper_pdf: "https://openreview.net/forum?id=9lGwd4q8KJc"
-    code: "https://github.com/Seojin-Kim/HoliMol"
-    selected: y
-
-  - title: "SuRe: Summarizing Retrievals using Answer Candidates for Open-domain QA of LLMs"
-    authors: "<a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <b><u>Jaehyun Nam</u></b>, <a href='https://sites.google.com/view/sangwoomo'>Sangwoo Mo</a>, <a href='https://pjj4288.github.io/'>Jongjin Park</a>, <a href='https://www.sang-woo-lee.com/'>Sang-Woo Lee</a>, <a href='https://seominjoon.github.io/'>Minjoon Seo</a>, <a href='https://aidljwha.wordpress.com/'>Jung-Woo Ha</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "International Conference on Learning Representations (<b><u>ICLR</u></b>), 2024"
-    paper_pdf: "https://arxiv.org/abs/2404.13081"
-    code: "https://github.com/bbuing9/ICLR24_SuRe"
-    selected: y
-
-  - title: "STUNT: Few-shot Tabular Learning with Self-generated Tasks from Unlabeled Tables"
-    authors: "<b><u>Jaehyun Nam</u></b>, <a href='https://jihoontack.github.io/'>Jihoon Tack</a>, <a href='https://kyungmnlee.github.io/'>Kyungmin Lee</a>, <a href='https://hankook.github.io/'>Hankook Lee</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>"
-    venue: "International Conference on Learning Representations (<b><u>ICLR</u></b>), 2023, <b>Spotlight Presentation (280/4956=5.6%)</b>"
-    venue1: "NeurIPS Workshop on Table Representation Learning (NeurIPSW-TRL), 2022"
-    venue2: "Bronze Prize, Samsung Humantech Paper Awards, 2023"
-    venue3: "Recipient, Google Conference Scholarships (APAC), 2023"
-    venue4: "Travel Award, International Conference on Learning Representations (ICLR), 2023"
-    venue5: "Grand Prize, KAIST-Samsung Electronics Industry-Academia Cooperation Paper Award, 2023"
-    paper_pdf: "https://arxiv.org/abs/2303.00918"
-    code: "https://github.com/jaehyun513/STUNT"
-    selected: y
