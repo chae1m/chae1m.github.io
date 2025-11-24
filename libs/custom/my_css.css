@@ -241,6 +241,10 @@ h4 {
   margin-top: 12px;
 }
 
+.icon-row i {
+  color: #696FAD;
+}
+
 .icon-btn {
   font-size: 16px;
   font-weight: 700;
@@ -288,4 +292,8 @@ b, strong {
 
 .paper-buttons .button {
   font-family: 'Inter', sans-serif !important;
+}
+
+.main-info {
+  margin-left: 20px;  /* 숫자 키우면 더 오른쪽 */
 }
