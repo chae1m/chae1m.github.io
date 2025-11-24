@@ -211,7 +211,7 @@ h4 {
 }
 
 /* 아이콘을 "버튼"이 아니라 그냥 깔끔한 아이콘처럼 */
-.social-round {
+/* .social-round {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -221,47 +221,37 @@ h4 {
   border-radius: 0 !important;
 
   background-color: transparent !important;  /* 핵심 */
-  margin-right: 10px;
+  /* margin-right: 10px;
 }
 
 .social-round i {
   font-size: 28px !important;    /* 아이콘 크게 */
-  color: #444 !important;        /* 색 (원하면 변경 가능) */
-}
+  /* color: #444 !important;        /* 색 (원하면 변경 가능) */
+/* } */
 
 
 
 /* 상단 프로필 옆 CV / Scholar 아이콘 크기 고정 */
-.social-icon img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
-}
+/* .social-icon img { */
+  /* width: 32px; */
+  /* height: 32px; */
+  /* border-radius: 50%; */
+  /* display: inline-block; */
+  /* vertical-align: middle; */ */
+/* } */
 
 
-/* CV + Scholar 아이콘 한 줄 정렬 */
 .profile-links {
   display: inline-flex;
-  align-items: center;   /* 세로 가운데 정렬의 핵심 */
+  align-items: center;
   gap: 8px;
 }
 
-/* 공통 스타일 */
 .profile-link {
   display: inline-flex;
   align-items: center;
 }
 
-/* CV 텍스트 */
-.profile-link-text {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1;   /* 위아래 여백 최소화 */
-}
-
-/* Scholar 아이콘 이미지 */
 .profile-link-icon img {
   width: 22px;
   height: 22px;
