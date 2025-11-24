@@ -262,7 +262,7 @@ body {
 
 /* ===== 제목 폰트: Source Serif Pro (학술 느낌 세리프) ===== */
 h1, h2, h3, h4 {
-  font-family: 'Source Serif Pro', serif !important;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
