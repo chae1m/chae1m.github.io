@@ -210,35 +210,39 @@ h4 {
   color: #000000 !important;
 }
 
-/* CV / Google Scholar 아이콘을 진짜 동그라미 버튼으로 */
+/* 아이콘을 "버튼"이 아니라 그냥 깔끔한 아이콘처럼 */
 .social-round {
-  width: 35px !important;
-  height: 35px !important;
-  border-radius: 50% !important;
-  background-color: #555 !important;
   display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+
+  width: auto !important;
+  height: auto !important;
+  border-radius: 0 !important;
+
+  background-color: transparent !important;  /* 핵심 */
+  margin-right: 10px;
 }
 
 .social-round i {
-  font-size: 20px !important;
-  color: white !important;
+  font-size: 28px !important;    /* 아이콘 크게 */
+  color: #444 !important;        /* 색 (원하면 변경 가능) */
 }
 
-/* 전체 기본 폰트 두께를 더 진하게 */
+
+/* 전체 글자 조금 더 두껍게 */
 body {
-  font-weight: 400 !important;
+  font-weight: 450 !important;
 }
 
-/* 이름 (Chaewon Moon) 더 굵게 */
-h1, h2 {
-  font-weight: 500 !important;
+/* 제목 더 굵게 (Chaewon Moon 같은 것들) */
+h1, h2, h3 {
+  font-weight: 600 !important;
 }
 
-/* 메뉴 글씨 (ABOUT, PUBLICATIONS 등) */
+/* 상단 메뉴 (ABOUT, PUBLICATIONS 등) */
 .navbar a,
 .nav a {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
+
