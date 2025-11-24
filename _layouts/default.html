@@ -51,8 +51,9 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="{{ '/libs/favicon.ico' | prepend: site.baseurl }}">
-  <link rel="shortcut icon" type="image/png" href="{{ '/libs/favicon.ico' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/x-icon" href="/libs/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/libs/favicon.ico">
+
 
 
 </head>
@@ -77,14 +78,13 @@
             <p>{{ site.data.main_info.office }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span class="social-icon" onclick="window.open('{{ site.data.main_info.cv }}')">
-                <img src="{{ site.baseurl }}/libs/cv.png">
+              <span class="social-round" onclick="window.open('{{ site.data.main_info.cv }}')" style="cursor: pointer">
+                <i class="ai ai-cv"></i>
               </span>
               
-              <span class="social-icon" onclick="window.open('{{ site.data.main_info.google_scholar }}')">
-                <img src="{{ site.baseurl }}/libs/scholar.png">
+              <span class="social-icon" onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+                <img src="{{ '/libs/scholar.png' | prepend: site.baseurl }}" alt="Google Scholar">
               </span>
-              
 
               <!-- <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
