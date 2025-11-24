@@ -272,11 +272,11 @@ b, strong {
 }
 
 .timeline {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
 
 .timeline p,
 .timeline div,
 .timeline span {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
