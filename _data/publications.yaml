@@ -5,6 +5,12 @@ papers:
     paper_pdf: "https://openreview.net/forum?id=ErnnE2UNI2&noteId=vgJMum6dmo&referrer=%5BAuthor+Console%5D%28%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions%29"
     selected: y
 
+  - title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environments"
+    authors: "<a href='https://hanseuljo.github.io'>Hanseul Cho</a>, Baekrok Shin, <b><u>Chaewon Moon</u></b>, Sang-Geun Hong, U-Ju Byeon, Jin-Yong Sung, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>"
+    venue: "J-KICS"
+    paper_pdf: "https://journal.kics.or.kr/digital-library/103567"
+    selected: n
+
 
   - title: "The Cost of Robustness: Tighter Bounds on Parameter Complexity for Robust Memorization in ReLU Nets"
     authors: "<a href='https://yujunkim02.github.io'>Yujun Kim*</a>, <b><u>Chaewon Moon*</u></b>, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>"
