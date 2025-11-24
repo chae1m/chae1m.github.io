@@ -210,23 +210,20 @@ h4 {
   color: #000000 !important;
 }
 
-/* CV / Google Scholar 아이콘을 동그라미 버튼으로 */
+/* CV / Google Scholar 아이콘을 진짜 동그라미 버튼으로 */
 .social-round {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #6b7280; /* 회색톤, 원하면 바꿔도 됨 */
-  color: #ffffff;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  background-color: #555 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   margin-right: 6px;
 }
 
 .social-round i {
-  font-size: 20px;
+  font-size: 20px !important;
+  color: white !important;
 }
 
-.social-round:hover {
-  opacity: 0.9;
-}
