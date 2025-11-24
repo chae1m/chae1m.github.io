@@ -256,10 +256,6 @@ h1, h2, h3 {
 }
 
 
-/* 폰트 강제로 두껍게 */
-* {
-  font-weight: 500 !important;
-}
 
 h1, h2, h3 {
   font-weight: 700 !important;
@@ -269,23 +265,28 @@ h1, h2, h3 {
   font-weight: 700 !important;
 }
 
-/* ===== 강제로 모든 텍스트 두껍게 만들기 ===== */
-html body,
-html p,
-html span,
-html div,
-html li,
-html a {
-  font-weight: 500 !important;
-}
-
-/* 본문 단락 텍스트 더 또렷하게 */
-p {
-  font-weight: 500 !important;
-}
-
 /* 메뉴 텍스트 */
 #nav a,
 .nav a {
   font-weight: 600 !important;
+}
+/* ===== 자연스럽게 두꺼운 폰트들 ===== */
+
+/* 기본 본문 텍스트 */
+body {
+  font-weight: 400;
+}
+
+p, li, div {
+  font-weight: 400;
+}
+
+/* 제목은 더 굵게 */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* b / strong 태그 복구 */
+b, strong {
+  font-weight: 700 !important;
 }
