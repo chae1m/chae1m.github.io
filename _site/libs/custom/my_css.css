@@ -274,7 +274,7 @@ h1 {
   font-weight: 600;
 }
 h4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* bold 스타일은 겁나게 굵지 않게 */
@@ -286,4 +286,12 @@ b, strong {
 
 .main-info {
   margin-left: 100px;  /* 숫자 키우면 더 오른쪽 */
+}
+
+
+.icon-btn .fa-linkedin-square {
+  font-size: 22px;    /* 크기 조절 (원하는 크기) */
+  color: #696FAD;     /* LinkedIn 공식 파란색 */
+  vertical-align: relative; /* 옆 아이콘과 높이 맞추기 */
+  transform: translateY(-1px) translateX(5px);
 }

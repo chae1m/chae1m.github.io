@@ -2,7 +2,7 @@ papers:
   - title: "Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization"
     authors: "<b><u>Chaewon Moon</u></b>, <a href='https://dongkuksi.notion.site/Dongkuk-Si-826580ca76a04aab8c2722a22ca00741'>Dongkuk Si</a>, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>"
     venue: "Manuscript, 2025"
-    paper_pdf: "https://openreview.net/forum?id=ErnnE2UNI2&noteId=vgJMum6dmo&referrer=%5BAuthor+Console%5D%28%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions%29"
+    # paper_pdf: "https://openreview.net/forum?id=ErnnE2UNI2&noteId=vgJMum6dmo&referrer=%5BAuthor+Console%5D%28%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions%29"
     selected: y
 
   - title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environments"
