@@ -19,6 +19,13 @@ mkdir public_html
 More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
 
 
+```
+git add .
+git commit -m "update new paper"
+git push
+```
+
+
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)
 - CSS
