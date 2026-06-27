@@ -1,6 +1,6 @@
 name: "Chaewon Moon"
 title: "M.S. student at KAIST"
-dept: "KAIST AI"
+# dept: "KAIST AI"
 email: "chaewon.moon [AT] kaist.ac.kr"
 profile_pic: "/assets/profile-pics/chaewon.jpg"
 cv: "/assets/cv/CV.pdf"
