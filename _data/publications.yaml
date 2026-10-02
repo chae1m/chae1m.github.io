@@ -1,7 +1,12 @@
 papers:
+  - title: "Gradient Clipping at and Beyond the Edge of Stability"
+    authors: "<b><u>Chaewon Moon</u></b>, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>, <a href='https://homes.cs.washington.edu/~sewoong/'>Sewoong Oh</a>"
+    venue: "Manuscript"
+    selected: y
+
   - title: "Machine Unlearning with a Destination: Tracking a Minimizer Path to the Retain-Only Objective"
     authors: "<b><u>Chaewon Moon</u></b>, <a href='https://cyseul.github.io/'>Yeseul Cho</a>, <a href='https://chulheeyun.github.io'>Chulhee Yun</a>"
-    venue: "Manuscript"
+    venue: "NeurIPS 2026 Workshop on Optimization for Machine Learning (OPT 2026)"
     # paper_pdf: "https://openreview.net/forum?id=ErnnE2UNI2&noteId=vgJMum6dmo&referrer=%5BAuthor+Console%5D%28%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions%29"
     selected: y
 
